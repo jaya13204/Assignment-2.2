@@ -1,0 +1,39 @@
+1.HDFS:
+
+*Hadoop Distributed File System is used for storage purpose in hadoop.
+*HDFS is built using the Java language
+*It consists of single namenode,called as master which manages the namespace of filesystem.
+*HDFS stores files across the collection of servers in a cluster.
+*There are number of data nodes which manages the storage to the nodes they run.
+*HDFS is a scalable, fault-tolerant, distributed storage system.
+*HDFS is  designed to run on commodity hardware.
+*Hadoop supports shell-like commands to interact with HDFS directly.
+*HDFS detects and compensates for hardware issues.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.Hadoop cluster:
+
+*Hadoop cluster boosts the speed of data analysis applications.
+ *A computer cluster used for Hadoop is called Hadoop Cluster. 
+*Hadoop clusters are scalable and highly resistant to failures.
+*Hadoop cluster is designed specifically for storing and analyzing huge amounts of 
+unstructured data.
+*Hadoop clusters are composed of three types of node: 
+-master nodes
+-worker nodes
+-client nodes. 
+*Hadoop cluster will run in low cost commodity hardwares.
+*Clusters of three or more machines typically use a single NameNode and ResourceManager
+ with all the other nodes as slave nodes. 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3.HDFS Blocks:
+
+*Hadoop distributed file system  stores the data in terms of blocks.
+*Hard Disk has concentric circles which form tracks.
+*The default size of hdfs block is 64MB.
+*HDFS blocks are larger in size in order to reduce the cost of seek time.
+*Blocks are easy to replicate and there by providing fault tolerance and hign availability.
+*The default replication factor of blocks is 3.
+*Blocks are linked to the file through INode. Each block is given a timestamp 
+that is used to determine whether a replica is current. 
